@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "lmaobox",
+  "version": "v.1.0.3",
+  "name": "LmaoBox.Eu",
+  "description": "You got Lmaoboxed!",
+  "authors": [
+    "мяучер"
+  ],
+  "contact": {
+    "repo": ""
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/meteor-client/textures/lmaobox.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "lmaobox.Lmaobox"
+    ]
+  },
+  "mixins": [
+    "lmaobox.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "0,160,255"
+  },
+  "depends": {
+    "java": ">=16",
+    "minecraft": ">=1.17.1",
+    "meteor-client": "*"
+  }
+}
